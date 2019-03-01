@@ -5,12 +5,16 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { IndexComponent } from './index/index.component';
 import { LogedinComponent } from './logedin/logedin.component';
+import { MyloginComponent } from './mylogin/mylogin.component';
+import { MyregisterComponent } from './myregister/myregister.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     IndexComponent,
-    LogedinComponent
+    LogedinComponent,
+    MyloginComponent,
+    MyregisterComponent
   ],
   imports: [
     BrowserModule,
