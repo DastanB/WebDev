@@ -7,6 +7,9 @@ import { IndexComponent } from './index/index.component';
 import { LogedinComponent } from './logedin/logedin.component';
 import { MyloginComponent } from './mylogin/mylogin.component';
 import { MyregisterComponent } from './myregister/myregister.component';
+import { FacultyComponent } from './faculty/faculty.component';
+
+
 
 @NgModule({
   declarations: [
@@ -14,7 +17,8 @@ import { MyregisterComponent } from './myregister/myregister.component';
     IndexComponent,
     LogedinComponent,
     MyloginComponent,
-    MyregisterComponent
+    MyregisterComponent,
+    FacultyComponent
   ],
   imports: [
     BrowserModule,
