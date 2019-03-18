@@ -7,15 +7,9 @@ import { IndexComponent } from './index/index.component';
 import { LogedinComponent } from './logedin/logedin.component';
 import { MyloginComponent } from './mylogin/mylogin.component';
 import { MyregisterComponent } from './myregister/myregister.component';
-<<<<<<< HEAD
 import { FacultyComponent } from './faculty/faculty.component';
-
-
-=======
-import { FacultyComponent} from './faculty/faculty.component';
-import { TeacherlistComponent } from './teacherlist/teacherlist.component';
+import { FacultyListComponent } from './faculty-list/faculty-list.component';
 import { ProfileComponent } from './profile/profile.component';
->>>>>>> 0c025de313e4f8366f9f03dfc21484cba35c2db5
 
 @NgModule({
   declarations: [
@@ -24,13 +18,9 @@ import { ProfileComponent } from './profile/profile.component';
     LogedinComponent,
     MyloginComponent,
     MyregisterComponent,
-<<<<<<< HEAD
-    FacultyComponent
-=======
     FacultyComponent,
-    TeacherlistComponent,
+    FacultyListComponent,
     ProfileComponent
->>>>>>> 0c025de313e4f8366f9f03dfc21484cba35c2db5
   ],
   imports: [
     BrowserModule,
