@@ -10,6 +10,7 @@ import { MyregisterComponent } from './myregister/myregister.component';
 import { FacultyComponent } from './faculty/faculty.component';
 import { FacultyListComponent } from './faculty-list/faculty-list.component';
 import { ProfileComponent } from './profile/profile.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -20,11 +21,12 @@ import { ProfileComponent } from './profile/profile.component';
     MyregisterComponent,
     FacultyComponent,
     FacultyListComponent,
-    ProfileComponent
+    ProfileComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

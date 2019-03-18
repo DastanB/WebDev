@@ -10,7 +10,6 @@
                       <div class="media-body">
                           <div class="mb-3">
                               <h1 class="h2 mb-2">Faculties</h1>
-                              <span>Useful for listing associated members of a group</span>
                           </div>
                       </div>
                   </div>
@@ -29,26 +28,21 @@
                       <thead>
                           <tr>
                               <th scope="col">Name</th>
-                              <th scope="col">Email</th>
-                              <th scope="col">Location</th>
-                              <th scope="col"></th>
                           </tr>
                       </thead>
                       <tbody>
 
-                          <tr class="bg-white">
+                          <tr *ngFor="let faculty of faculties" class="bg-white">
                               <th scope="row">
                                   <div class="media align-items-center">
                                       <img alt="Image" src="" class="avatar" />
                                       <div class="media-body">
-                                          <span class="h6 mb-0">FIT
+                                          <span class="h6 mb-0">{{ faculty.name }}
                                           </span>
-                                          <span class="text-muted">Codebusters</span>
+                                          <span class="text-muted">{{ faculty.description }}</span>
                                       </div>
                                   </div>
                               </th>
-                              <td>daniel.cameron@wingman.co</td>
-                              <td>Ablaykhana 2 floor</td>
                               <td>
                                   <div class="dropdown">
                                       <button class="btn btn-sm btn-outline-primary dropdown-toggle dropdown-toggle-no-arrow" type="button" id="dropdownMenuButton-1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -65,7 +59,7 @@
                               </td>
                           </tr>
                           <tr class="table-divider"></tr>
-                          <tr class="bg-white">
+                          <!-- <tr class="bg-white">
                               <th scope="row">
                                   <div class="media align-items-center">
                                       <img alt="Image" src="" class="avatar" />
@@ -237,7 +231,7 @@
                                       </div>
                                   </div>
                               </td>
-                          </tr>
+                          </tr> -->
                           <tr class="table-divider"></tr>                                 
                       </tbody>
                   </table>

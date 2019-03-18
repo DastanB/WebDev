@@ -66,7 +66,13 @@
       "faculty": 5
     }
   ],
-  "profile": {
-    "name": "typicode"
-  }
+  "subjects": [
+    {
+      "id": 1,
+      "name": "Lalala",
+      "faculty": 1
+    }
+  ]
+  
+
 }
